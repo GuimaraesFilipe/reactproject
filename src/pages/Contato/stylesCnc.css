@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+.contact-form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+
+.contact-form-content{
+    width: 70%;
+    display: flex;
+   flex-direction: row;
+
+    border-radius: 35px;
+    box-shadow: 0px 20px 30px rgba(253, 30, 30, 0.7);
+}
+
+.photo{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50%50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+
+.photo:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url('https://th.bing.com/th/id/R.03c859df597183b469740aec36479f2c?rik=XFSzpS0cHzTnFQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2015%2f12%2fBatman-wallpaper-HD.jpg&ehk=5SWpzvptS1bmlW%2fwvl5cTtuLNXQNxWztdRvvGq3PeHY%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+.form-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    color: #fff;
+    row-gap: 20px;
+}
+.form-title {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .form-title h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #FFF;
+  }
+  
+  .form-title h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  
+    color: rgba(253, 30, 30, 0.7)
+  }
+  
+  #form-divider {
+    width: 15%;
+    margin-top: 20px;
+  }
+
+.form-description {
+  text-align: justify;
+  font-family: 'Kdam Thmor Pro', sans-serif;  font-size: 1.2rem;
+  font-weight: 5000;
+  color: #FFF;
+  width: 90%;
+
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 5000;
+    color: #FFF;
+    
+  }
+
+  .form-inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+  }
+  
+  .first-inputs {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-input {
+  width: 100%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 20px;
+  border-color: #FFF;
+
+
+}
+#user-message {
+
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    
+ 
+  
+  }
+
+  .submit-button {
+    width: 10vw;
+    height: 40px;
+    background-color:rgba(253, 30, 30, 0.7);;
+    color: #040404;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 20px;
+  
+  }
+  
+  .submit-button:hover {
+  
+    background-color: transparent;
+    color: #fff;
+  
+  
+  }
+
+  @media(max-width:768px) {
+
+    .contact-form-content{
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+
+
+    }
+
+    
+    .form-content{
+      width: 100%;
+
+    justify-content: flex-start;
+
+
+  }
+  #form-divider {
+ display: none;
+  }
+
+  .form-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  .form-title h1 {
+    margin: 0;
+    width: 100%;
+     font-size: 2.5rem;
+    text-align: center;
+
+  }
+      .form-description {
+          text-align: center;
+        }
+
+        
+        .photo{
+          width: 95%;
+          height: 300px;
+
+      }
+      
+  .form-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+
+
+  }
+  
+  .first-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-input {
+  width: 70%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 20px;
+  border-color: #FFF;
+
+
+}
+#user-message {
+
+    width: 70%;
+    max-height: 100%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    
+ 
+  
+  }
+  .submit-button {
+    width: 30vw;
+    height: 30px;
+
+  
+  }
+}
